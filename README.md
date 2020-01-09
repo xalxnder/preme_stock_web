@@ -1,6 +1,6 @@
 # What's in stock at Supreme?
 
-Flask app that displays items that are currently in stock at Supreme's wesbtore.
+Flask app that displays items that are currently in stock at Supreme's online store.
 
 
 ### Why?
