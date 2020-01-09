@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='bolt.png') }}">
+    <link rel="stylesheet" href="static/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="{{url_for('static', filename='supreme.png')}}" alt="" id="preme">
+
+    <div class="container">
+        {%for i in item%}
+        <a href="{{i['Link']}}">
+            <img src="{{i['Image']}}" alt="">
+        </a>
+        {%endfor%}
+
+        <div id='description'>
+            Items currenly in stock at Supreme. Undortunatley, Supreme's webstore is closed for the season, so the when
+            clicking on an item, you'll be redirected to their homepage.
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+<script src="static/script.js"></script>
+
+</html>

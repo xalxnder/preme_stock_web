@@ -1,0 +1,25 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#description {
+    color: red;
+
+}
+
+#preme {
+    display: block;
+    margin: 0 auto;
+}
