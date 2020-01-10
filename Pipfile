@@ -13,6 +13,7 @@ request = "*"
 bs4 = "*"
 requests = "*"
 colorama = "*"
+python-dotenv = "*"
 
 [requires]
 python_version = "3.7"

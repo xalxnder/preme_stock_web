@@ -2,10 +2,8 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-img {
-    height: 350px;
-    width: 350px;
-    margin: 10px;
+#preme {
+    padding-bottom: 50px;
 }
 
 .container {
