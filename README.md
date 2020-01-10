@@ -15,4 +15,5 @@ Supreme's online store is currently closed, until the SS20 season, so this app, 
 
 To Run Locally:
 1. Clone this repo.
-2. pipenv install 
+2. pipenv install && pipenv shell
+3. flask run
