@@ -13,3 +13,6 @@ Twitter bot implementation of this app can be found [here](https://github.com/xa
 Supreme's online store is currently closed, until the SS20 season, so this app, for the time being, cannot scrape their site for items. Luckily, I saved some items in the "items.json" file the last time I ran the script.
 
 
+To Run Locally:
+1. Clone this repo.
+2. pipenv install 
