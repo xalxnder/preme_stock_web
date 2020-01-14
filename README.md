@@ -10,11 +10,7 @@ There is currently no option on their website to sort through items based on ava
 Twitter bot implementation of this app can be found [here](https://github.com/xalxnder/instock_or_not). 
 
 #### FYI
-Supreme's online store is currently closed, until the SS20 season, so this app, for the time being, cannot scrape their site for items. Luckily, I saved some items in the "items.json" file the last time I ran the script.
+Supreme's online store is currently closed, until the SS20 season, so this app, for the time being, cannot scrape their site for items. 
 
 
-To Run Locally:
-1. Clone this repo.
-2. cd preme_stock_web
-3. pipenv install && pipenv shell
-4. flask run
+This is currently running on [Heroku](https://premestock.herokuapp.com/)
